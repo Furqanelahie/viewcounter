@@ -10,7 +10,6 @@ $dataid=$_GET['id'];
 
 
 
-echo $json_object;
 $color="#000000";
 $bg="#ffffff";
 
