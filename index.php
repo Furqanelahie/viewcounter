@@ -10,5 +10,5 @@ $dataid=$_GET['id'];
 
 
 echo $json_object;
-echo "5";
+
 ?>
