@@ -24,7 +24,7 @@ $hex = $bg;
  
  
  
- $your_text = $json_object; 
+ $your_text = "2090867"; 
  $IMG = imagecreate( 110, 80 ); 
  $background = imagecolorallocate($IMG, $r,$g,$b); 
  $text_color = imagecolorallocate($IMG,$r2,$g2,$b2);
@@ -32,7 +32,7 @@ $hex = $bg;
    imagestring( $IMG, 5, 3, 30, $your_text, $text_color ); 
    imagesetthickness ( $IMG, 5 );
     
-    
+    header( "Content-type: image/png" );
      imagepng($IMG);
       
        imagecolordeallocate($IMG, $text_color ); 
