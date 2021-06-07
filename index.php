@@ -2,7 +2,6 @@
 
 header('Access-Control-Allow-Origin: *');
 
-header( "Content-type: image/png" );
 
 $dataid=$_GET['id'];
 
